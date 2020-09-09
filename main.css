@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Orbitron:wght@500&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(233, 226, 226);
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    min-height: 100px;
+    background-color: khaki;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    color: green;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4em;
+
+}
+
+h2 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+li {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(182, 12, 12);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    margin: auto;
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    justify-content: center;
+    padding: 5px 0 5px 60px;
+}
+
+#page-wrap {
+    position: relative;
+    width: 100%
+}
+
+#telescopes > div {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-bottom: 100px;
+    padding: 10px;
+    justify-content: center;
+    max-width: 450px;
+}
+
+#telescopes img {
+  margin: auto;
+  padding: 10px;
+}
+
+#telescopes p {
+    text-align: justify;
+}
+
+#email {
+    min-width: 350px;
+    margin: 10px;
+}
+
+#shipping p {
+    margin: 20px;
+}
+
+#shipping a {
+    padding: 5px;
+    color: blue;
+    text-decoration: underline;
+}

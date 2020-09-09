@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="Product Landing Page FCC.css" />
+</head>
+
+<style>
+#telescopes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+</style>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="page-wrap">
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src=" https://i.ibb.co/jH2qJW3/pngegg.png " alt="telescope_logo " border="0">
+        </div>
+
+        <div class="logo-title">
+            <h1>Terry's Telescopes</h1>
+        </div>
+
+        <div class="navbar">
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#telescopes">Telescopes</a>
+                        <a class="nav-link" href="#tutorial">Tutorial</a>
+                        <a class="nav-link" href="#shipping">Shipping</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <section id="intro">
+        <h2>"Before you look to the sky, visit Terry's Telescopes"</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Enter your email address for our monthly newsletter"/><br>
+            <input id="submit" type="submit" value="Submit">
+               
+        </form>
+    </section>
+                          
+    <section class="video" id="tutorial">
+        <iframe id="video" width="700" height="450" src="https://www.youtube.com/embed/i6rXWIVgjVQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="telescopes">
+        <div id="refractor">
+            <h2>Refractor Telescopes</h2>
+            <img src="https://www.educationalinsights.com/media/catalog/product/5/3/5305_main.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=500&width=700&canvas=700:500" alt="image of refractor telescope" width="320px" height="250px">
+            <p>Refractor telescopes are the classic "pirate" telescope design, with the eyepiece at the bottom of the telescope body. Refractors are sturdy and reliable due to only containing lenses inside a sealed, dust-proof tube.</p>
+    
+        </div>
+        <div id="reflector">
+            <h2>Reflector Telescopes</h2>
+            <img src="https://cdn.shopify.com/s/files/1/1594/4815/products/b9f37647d0d5129eb9a2303c779e6062_520x520.jpg?v=1571247422" alt="image of refractor telescope" width="210px" height="280px">
+            <p>Reflector, or Newtonian, telescopes contain a large parabolic mirror at the base of the telescope body which reflects light back upwards to a smaller mirror which is then observed through the eyepiece at the open top end of the tube. Reflector telescopes are cheaper relative to similar diameter refractors but are prone to mirror misalignment and require regular cleaning due to their open telescope body.</p>
+        </div>
+
+        <div id="dobsonian">
+            <h2>Dobsonian Telescopes</h2>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71lWZ%2BgJUJL._AC_SY879_.jpg" alt="image of refractor telescope" width="240px" height="320px">
+            <p>Dobsonian telescopes are essentially reflector telescopes mounted on a large box-like mount and are the easiest to set up and use. They are ideal for deep-space observations and for maximum aperture-to-price value. However, Dobsonians are bulky, not very portable and not suitable for astrophotography.</p>
+        </div>
+    </section>
+
+    <section id="shipping">
+        <h2>Shipping Information</h2>
+        <p>We offer competitive shipping rates within the EU, on a € per kg basis. We also ship to some Rest of World locations but unfortunately we are currently unable to ship to the United States or Canada.</p>
+        <p>Please contact us<a href="">here</a>for further information or for more accurate shipping costs to your location.</p>
+    </section>
+
+    <footer id="footer">
+        <p>© Terry's Telescopes 2020</p>
+    </footer>
+</div>
+                    
+    
+    
+</div>
+</body>
+
+</html>
